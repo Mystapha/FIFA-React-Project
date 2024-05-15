@@ -1,0 +1,8 @@
+.foote{
+    display: grid;
+    text-align: center;
+    background-color: rgb(18, 17, 17) !important;
+    color: blanchedalmond;
+    height: 30px;
+    place-items: center;
+}

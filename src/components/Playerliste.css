@@ -1,0 +1,8 @@
+.cardd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding:auto;
+    place-items: center;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+.btn{
+    box-shadow: 2px #fff;
+    background-color: black !important;
+    font-weight: 600 !important;
+    font-weight: 500;
+}
+#basic-addon1{
+    background-color: rgb(11, 144, 11) !important;
+    color: #fff;
+    font-weight: 500;
+}
+.btn2 {
+    height: 3em;
+    width: 15em;
+    border: none;
+    border-radius: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .btn2 span {
+    z-index: 1;
+    display: inline-block;
+    background-color: black;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 25px;
+    color: #fff;
+    line-height: 55px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: all 0.5s;
+  }
+  
+  .btn2 .container {
+    z-index: -1;
+    width: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50px);
+    transition: all 0.4s;
+  }
+  
+  .btn2 .container svg {
+    padding: 0 10px;
+  }
+  
+  .btn2:hover span {
+    width: 0;
+  }
+  
+  .btn2:hover .container {
+    z-index: 2;
+    width: 100%;
+  }

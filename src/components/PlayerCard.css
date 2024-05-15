@@ -1,0 +1,59 @@
+.title{
+    text-align: center;
+    color: rgb(211, 180, 2);
+}
+.cards{
+ width: 18rem;
+ border: none;
+ margin:2rem;
+ color: #fff;
+ box-shadow: 2px 2px 3px rgb(132, 132, 208);
+}
+.cards h6{
+    font-size: 25px;
+ font-weight: 600;
+}
+.im2{
+    height: 300px;
+}
+.bod1{
+    background-color: rgb(43, 45, 43);
+}
+
+#btn2{
+    display: flex;
+    justify-content: center;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
